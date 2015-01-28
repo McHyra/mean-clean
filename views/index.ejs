@@ -2,9 +2,18 @@
 <html>
   <head>
     <title>Mean-Clean</title>
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
-  <body>
-    <div ui-view></div>
+  <body ng-app="meanClean">
+  <!-- View -->
+  <div ui-view></div>
+  <!-- Lib Script -->
+  <script src="/jquery/dist/jquery.min.js"></script>
+  <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/angular/angular.min.js"></script>
+  <script src="/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <!-- JS -->
+  <script src="/javascripts/AppConfig.js"></script>
   </body>
 </html>
